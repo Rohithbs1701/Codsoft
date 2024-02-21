@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Landing Page</h1>
+                <ul>
+                    <li><a href="#Features">Features</a></li>
+                    <li><a href="#About">About Us</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome To Our Landing Page of Landscaping</h2>
+            <p>Where we take care of your lawn .</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <h3>Grass cutting and maintainence</h3>
+                <p>Grass cutting is essential for maintaining a neat and tidy outdoor environment. Regular mowing not only enhances the aesthetic appeal of a property but also promotes healthier grass growth. It prevents overgrowth, weed proliferation, and pest infestation. Proper equipment and techniques are crucial to achieve optimal results without damaging the grass. Additionally, it reduces fire hazards and creates safer outdoor spaces for recreational activities. Effective grass cutting requires adherence to safety protocols, such as wearing protective gear and ensuring proper tool maintenance. Ultimately, consistent lawn care contributes to a pleasant outdoor atmosphere and enhances the overall quality of life.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <h3>We Work for you</h3>
+                <p>A grass cutting person, often a professional landscaper or homeowner, performs tasks vital for lawn maintenance. They operate mowers, trimmers, and other equipment to trim grass to desired lengths. Beyond aesthetics, their work fosters healthier grass growth by preventing overgrowth and weed proliferation. They ensure safety by adhering to equipment guidelines and wearing protective gear. Ultimately, their efforts contribute to creating safer, more visually appealing outdoor environments for recreation and relaxation</p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our grass cutting service is dedicated to providing pristine outdoor spaces for our clients. With years of experience and a passion for landscaping, we ensure every lawn we touch receives expert care. Our team employs state-of-the-art equipment and environmentally friendly practices to deliver superior results. From meticulous mowing to precise edging, we strive for perfection in every job. Customer satisfaction is our priority, and we take pride in exceeding expectations. Trust us to transform your lawn into a lush, vibrant oasis you'll love to come home to."
+            </p>
+        </div>
+    </section>
+  <section id="contact" class="contact">
+    <div class="main-text scroll-scale">
+      <span>Questions Here Please</span>
+      <h2>Contact Me</h2>
+    </div>
+    <form class="scroll-bottom" onsubmit="sendEmail(); reset(); return flase;">
+      <input type="text" id="name" placeholder="Your Name" />
+      <input type="text" id="address" placeholder="Your Address" />
+      <input type="number" id="mobile" placeholder="Mobile Number" />
+      <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <div class="btn-box formBtn">
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+    <footer>
+        <div class="container">
+            <p>Thank You For Visiting our web page </p>
+        </div>
+    </footer>
+
+    <script src="index.css"></script>
+</body>
+
+</html>
